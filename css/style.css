@@ -1,0 +1,22 @@
+/* REGOLE GENERALI */
+._title-cnt{
+    width: 450px;
+}
+
+
+/* REGOLE DI HEADER */
+._header-top{
+    background-color: black;
+}
+
+._header-top img{
+    width: 90px;
+}
+
+._header-bottom ._lens{
+    width: 40px;
+}
+
+
+/* REGOLE DI MAIN */
+
