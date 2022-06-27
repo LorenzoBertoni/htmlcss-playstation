@@ -1,9 +1,3 @@
-/* REGOLE GENERALI */
-._title-cnt{
-    width: 450px;
-}
-
-
 /* REGOLE DI HEADER */
 ._header-top{
     background-color: black;
@@ -20,3 +14,6 @@
 
 /* REGOLE DI MAIN */
 
+._jumbo-title-cnt{
+    width: 400px;
+}
