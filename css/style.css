@@ -46,3 +46,11 @@
 #ps-now{
     background-color: darkblue;
 }
+
+footer{
+    background-color: lightblue;
+}
+
+._footer-info img{
+    width: 1.4rem;
+}
