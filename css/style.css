@@ -39,6 +39,13 @@ body{
 ._btn-orange{
     background-color: #CD3D0F;
     color: white;
+    padding: .5rem 1rem;
+    border: none;
+}
+
+._btn-orange:hover{
+    outline: 1px solid black;
+    outline-offset: -.2rem;
 }
 
 /* CAROUSEL */
@@ -46,6 +53,12 @@ body{
     outline: 2px solid #0070D1;
     outline-offset: .2rem;
 }
+
+#carousel .row .col-6 img:hover{
+    transform: translate(0, -10px);
+    transition: .2s linear;
+}
+
 
 /* PLAY 5 */
 ._side-title{
@@ -58,15 +71,28 @@ body{
     }
 }
 
+#playstation5 ._ms-cards .col-4 img:hover + h6{
+    border-bottom: 2px solid #2D64E6;
+}
+
+
+/* AD */
 #ad{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     height: 650px;
 }
 
+/* NEW RELEASES */
 #new-releases{
     background-color: #222;
 }
+
+#new-releases img{
+    cursor: pointer;
+}
+
+
 /* PS PLUS */
 #ps-plus{
     background-color: #BEBCBB;
@@ -75,6 +101,8 @@ body{
 ._btn-gray{
     background-color: #D9DADC;
 }
+
+
 /* PS NOW */
 #ps-now{
     background-color: #161C3B;
@@ -82,10 +110,17 @@ body{
 
 ._btn-white{
     background-color: white;
+    padding: .5rem 1rem;
+    border: none;
+}
+
+._btn-white:hover{
+    background-color: white;
+    outline: 2px solid #333;
+    outline-offset: -.2rem;
 }
 
 /* REGOLE DI FOOTER */
-
 footer{
     background-color: #00439C;
 }
