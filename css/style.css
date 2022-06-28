@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 /* REGOLE DI HEADER */
 ._header-top{
     background-color: black;
@@ -11,8 +15,17 @@
     width: 40px;
 }
 
+._btn-grey{
+    background-color: #363636;
+}
+
+._btn-grey:hover{
+    background-color: #222;
+}
+
 
 /* REGOLE DI MAIN */
+/* JUMBOTRON */
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -21,6 +34,22 @@
 
 ._ms-title-cnt{
     height: inherit;
+}
+
+._btn-orange{
+    background-color: #CD3D0F;
+    color: white;
+}
+
+/* CAROUSEL */
+#carousel .row .col-6 ._outline{
+    outline: 2px solid #0070D1;
+    outline-offset: .2rem;
+}
+
+/* PLAY 5 */
+._side-title{
+    font-size: 14px;
 }
 
 @media all and (min-width: 768px){
@@ -38,19 +67,38 @@
 #new-releases{
     background-color: #222;
 }
-
+/* PS PLUS */
 #ps-plus{
-    background-color: lightgray;
+    background-color: #BEBCBB;
 }
 
-#ps-now{
-    background-color: darkblue;
+._btn-gray{
+    background-color: #D9DADC;
 }
+/* PS NOW */
+#ps-now{
+    background-color: #161C3B;
+}
+
+._btn-white{
+    background-color: white;
+}
+
+/* REGOLE DI FOOTER */
 
 footer{
-    background-color: lightblue;
+    background-color: #00439C;
 }
 
 ._footer-info img{
     width: 1.4rem;
+}
+
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+footer ul li a{
+    text-decoration: none;
 }
