@@ -56,6 +56,10 @@ body{
     outline-offset: .2rem;
 }
 
+#carousel img{
+    cursor: pointer;
+}
+
 #carousel .row .col-6 img:hover{
     transform: translate(0, -10px);
     transition: .2s linear;
