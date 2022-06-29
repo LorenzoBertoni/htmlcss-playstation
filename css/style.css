@@ -77,8 +77,9 @@ body{
     }
 }
 
-#playstation5 ._ms-cards .col-4 img:hover + h6{
+#playstation5 ._ms-cards .col-4:hover{
     border-bottom: 2px solid #2D64E6;
+    cursor: pointer;
 }
 
 
